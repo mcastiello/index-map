@@ -8,9 +8,9 @@
 const path = require('path');
 
 module.exports = {
-    entry: './src/IndexMap.js',
+    entry: './src/index-map.js',
     output: {
-        filename: 'IndexMap.js',
+        filename: 'index-map.js',
         path: path.resolve(__dirname, 'dist'),
     }
 };
