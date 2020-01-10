@@ -7,17 +7,16 @@
  */
 class IndexMap extends Map {
     /**
-     * WeakMap used to perform the reverse checks.
-     * @type {WeakMap}
-     */
-    weak = null;
-
-    /**
      * Initialise the WeakMap.
      * @constructor
      */
     constructor() {
         super();
+        
+        /**
+         * WeakMap used to perform the reverse checks.
+         * @type {WeakMap}
+         */
         this.weak = new WeakMap();
     }
 
