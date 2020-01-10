@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2020
+ * Author: Marco Castiello
+ * E-mail: marco.castiello@gmail.com
+ * Project: Index Map
+ */
+
 /**
  * Define a bi-directional map that allow to link an Index with an object.
  * If you try to get, delete or check the existence of an entry, you can pass either the index or the object value.
