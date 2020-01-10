@@ -1,0 +1,27 @@
+{
+  "name": "index-map-class",
+  "version": "1.0.0",
+  "description": "An extended version of the Map class that can act as WeakMap as well.",
+  "main": "src/IndexMap.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcastiello/index-map.git"
+  },
+  "keywords": ["Map", "WeakMap"],
+  "author": "Marco Castiello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcastiello/index-map/issues"
+  },
+  "homepage": "https://github.com/mcastiello/index-map#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
