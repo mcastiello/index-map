@@ -2,7 +2,7 @@
   "name": "index-map-class",
   "version": "1.0.0",
   "description": "An extended version of the Map class that can act as WeakMap as well.",
-  "main": "src/IndexMap.js",
+  "main": "src/index-map.js",
   "directories": {
     "test": "test"
   },
