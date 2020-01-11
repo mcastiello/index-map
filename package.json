@@ -7,15 +7,17 @@
     "test": "test"
   },
   "scripts": {
-    "build": "webpack"
-    "test": "jest",
+    "build": "webpack",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mcastiello/index-map.git"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
-  "keywords": ["Map", "WeakMap"],
+  "keywords": [
+    "Map",
+    "WeakMap"
+  ],
   "author": "Marco Castiello",
   "license": "ISC",
   "bugs": {
