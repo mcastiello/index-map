@@ -83,4 +83,6 @@ class IndexMap extends Map {
     }
 }
 
+self.IndexMap = IndexMap;
+
 export default IndexMap;
