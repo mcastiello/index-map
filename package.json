@@ -1,14 +1,17 @@
 {
   "name": "index-map-class",
-  "version": "1.0.2",
+  "version": "1.2.0",
   "description": "An extended version of the Map class that can act as WeakMap as well.",
-  "main": "dist/index-map.js",
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
+  "source": "src/index.ts",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "build": "webpack",
-    "test": "jest"
+    "clear": "rm -Rf dist",
+    "build": "yarn clear && microbundle build",
+    "test": "yarn build && jest"
   },
   "repository": {
     "type": "git",
@@ -25,9 +28,27 @@
   },
   "homepage": "https://github.com/mcastiello/index-map#readme",
   "devDependencies": {
-    "@babel/plugin-transform-modules-commonjs": "^7.7.5",
-    "jest": "^24.9.0",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+    "@types/jest": "^26.0.20",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-typescript": "^7.0.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "eslint-plugin-sonarjs": "^0.5.0",
+    "eslint-plugin-spellcheck": "^0.0.14",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^26.6.3",
+    "microbundle": "^0.13.0",
+    "prettier": "^2.0.4",
+    "typescript": "^3.7.5"
   }
 }
